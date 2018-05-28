@@ -1,0 +1,29 @@
+{
+  "name": "express-gql",
+  "version": "1.0.0",
+  "description": "A graphql starter template",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "url",
+    "url": "https://github.com/atwrx/express-gql.git"
+  },
+  "keywords": [
+    "graphql",
+    "express",
+    "template"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/atwrx/express-gql/issues"
+  },
+  "homepage": "https://github.com/atwrx/express-gql#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "express-graphql": "^0.6.12",
+    "graphql": "^0.13.2"
+  }
+}
