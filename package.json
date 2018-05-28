@@ -4,7 +4,9 @@
   "description": "A graphql starter template",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "nodemon src/index.js",
+    "startServer:dev": "ENV='dev' PORT=3001 nodemon server/index.js",
+    "startServer:prod": "ENV='prod' PORT=3001 nodemon server/index.js"
   },
   "repository": {
     "type": "url",
